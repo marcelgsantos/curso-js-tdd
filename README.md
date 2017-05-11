@@ -23,3 +23,12 @@
 * Utiliza-se o comando `npm init` para **iniciar um projeto** utilizando o NPM para gerenciamento de dependências.
 * Ao iniciar um projeto deve-se informar nome do projeto, versão, descrição, entrypoint entre outros.
 * No final do projeto, um esboço do arquivo `package.json` é exibido.
+
+### [Criando o gitignore de forma simples](http://willianjusten.teachable.com/courses/103968/lectures/1577435)
+
+* O arquivo `.gitignore` permite **ignorar arquivos e diretórios** que não necessitam serem versionados no Git.
+* Sugere-se utilizar a ferramenta de linha de comando **gitignore** para gerar arquivos `.gitignore` de diferentes plataformas.
+* Utiliza-se o comando `npm install gitignore -g` para instalar a ferramenta **gitignore** de forma global no ambiente.
+* Utiliza-se o comando `gitignore -types` para **listar as opções disponíveis** de plataformas para a geração de arquivos `.gitignore`.
+* Utiliza-se o comando `gitignore Node` para gerar um arquivo `.gitignore` para projetos JavaScript.
+* O arquivo `.gitignore` deve ser versionado no Git.
