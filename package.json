@@ -1,0 +1,16 @@
+{
+  "name": "curso-js-tdd",
+  "version": "0.0.1",
+  "description": "Nossa biblioteca do curso de JS com TDD na prática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Marcel dos Santos <marcelgsantos@gmail.com> (http://pensandonaweb.com.br/)",
+  "license": "MIT"
+}
