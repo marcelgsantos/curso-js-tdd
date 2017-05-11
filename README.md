@@ -32,3 +32,14 @@
 * Utiliza-se o comando `gitignore -types` para **listar as opções disponíveis** de plataformas para a geração de arquivos `.gitignore`.
 * Utiliza-se o comando `gitignore Node` para gerar um arquivo `.gitignore` para projetos JavaScript.
 * O arquivo `.gitignore` deve ser versionado no Git.
+
+### [Criando arquivos para documentação](http://willianjusten.teachable.com/courses/103968/lectures/1578395)
+
+* A **documentação** é parte fundamental em um projeto de software.
+* O **arquivo README** é o arquivo principal do GitHub que contém uma *apresentação inicial*, *como utilizar a biblioteca*, *boas práticas* entre outros.
+* O repositório [awesome-readme](https://github.com/matiassingers/awesome-readme) possui *artigos* e *exemplos* de como fazer uma **boa documentação**.
+* Pode-se utilizar o **template** do arquivo README para o seu projeto que pode ser encontrado em https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.
+* Um **arquivo README** é composto por *título*, *badges* (tamanho, se os testes estão passando e a versão do NPM), *descrição*, *estrutura de diretórios*, *trechos de códigos*, *gifs animados*, *porque utilizar a ferramenta*, *como contribuir* e a *licença*.
+* Recomenda-se utilizar os arquivos `README.md`, `CONTRIBUTING.md` e `LICENSE.md` em um projeto e nomeá-los com letras maiúsculas.
+* O arquivo `CONTRIBUTING.md` deve conter instruções de **como contribuir** com o projeto.
+* O arquivo `LICENSE.md` deve conter a **licença** utilizada pelo projeto e pode ser obtida em `opensource.org`.
