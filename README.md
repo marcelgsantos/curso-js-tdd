@@ -43,3 +43,20 @@
 * Recomenda-se utilizar os arquivos `README.md`, `CONTRIBUTING.md` e `LICENSE.md` em um projeto e nomeá-los com letras maiúsculas.
 * O arquivo `CONTRIBUTING.md` deve conter instruções de **como contribuir** com o projeto.
 * O arquivo `LICENSE.md` deve conter a **licença** utilizada pelo projeto e pode ser obtida em `opensource.org`.
+
+### [Padrões de Código - Styleguides](http://willianjusten.teachable.com/courses/103968/lectures/1578417)
+
+* Uma das coisas mais importantes nas boas práticas é a utilização de um **style guide**.
+* Um **style guide** é um documento que contém os **padrões de código** que serão utilizados em um projeto.
+* Um **código padronizado** facilita a *leitura* e *manutenção* do código de um grande projeto entre os membros da equipe.
+* Um dos style guides **mais conhecidos** e utilizados em JavaScript é o do Airbnb e pode ser acessado em https://github.com/airbnb/javascript.
+* Recomenda-se fazer uma **leitura completa** do style guide.
+* Outro style guide bastante conhecido é o **Standard JS** e pode ser acessado em https://standardjs.com/.
+* Mais um style guide bastante conhecido é o **Idiomatic JavaScript** criado pelo Rick Waldron e pode ser acessado em https://github.com/rwaldron/idiomatic.js.
+* A ferramenta de análise de código **mais utilizada** antigamente era o **JSHint**.
+* Existiam também **outras ferramentas** como **JSLint** e **JSCS**.
+* O **JSCS** utilizava o conceito de presets e exibia o erro de maneira amigável.
+* O **JSCS** funcionava como um linter e um formatador de código.
+* O ESLint é a ferramenta de análise de código **mais utilizada** hoje em dia.
+* O ESLint fará a **verificação do código** de acordo com as **regras definidas**.
+* O ESLint pode ser configurado para rodar no **editor de texto** ou na **linha de comando**, por exemplo.
