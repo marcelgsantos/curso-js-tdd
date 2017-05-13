@@ -83,3 +83,7 @@
 * Algumas **regras** são `ident_style`, `ident_size`, `end_of_line`, `charset` e `trim_trailing_whitespace`.
 * Deve-se **instalar o plugin** do EditorConfig no seu editor de texto predileto.
 
+### [Criando um NPM Script](http://willianjusten.teachable.com/courses/103968/lectures/1578860)
+
+* O **NPM Script** é um script que pode ser **rodado** através do NPM.
+* Normalmente cria-se NPM scripts para tarefas como *transpiling de JavaScript* ou *pré-processamento de estilos*, por exemplo.
