@@ -60,3 +60,17 @@
 * O ESLint é a ferramenta de análise de código **mais utilizada** hoje em dia.
 * O ESLint fará a **verificação do código** de acordo com as **regras definidas**.
 * O ESLint pode ser configurado para rodar no **editor de texto** ou na **linha de comando**, por exemplo.
+
+### [Instalando e Usando o Eslint](http://willianjusten.teachable.com/courses/103968/lectures/1578420)
+
+* Recomenda-se instalar o ESLint no **diretório do projeto** e não globalmente.
+* Utiliza-se o comando `npm install eslint --save-dev` para **instalar o ESLint** no diretório do projeto.
+* Utiliza-se o comando `./node_modules/.bin/eslint --init` para **inicializar as configurações** do ESLint para o prjeto.
+* O **executável** do ESLint encontra-se do diretório `node_modules/.bin` do projeto.
+* Após executar o **comando de configuração** serão realizadas perguntas sobre *utilizar algum style guide existente* ou *definir as suas próprias regras* e o **formato do arquivo de configuração**.
+* Após isso, serão instalados alguns **pacotes complementares** como `eslint-plugin-import` e `eslint-config-airbnb-base` e o **arquivo de configuração** `.eslintrc.js` será criado.
+* Para **realizar a verificação** utiliza-se o comando `./node_modules/.bin/eslint *.js`.
+* Será listada *linha*, *tipo*, *mensagem* e *regra* para cada **inconsistência** encontrada.
+* Algumas **regras** são `no-undef`, `no-unused-vars`, `semi`, `no-redeclare`, `quotes` e `eol-last`.
+* É possível **integrar** o ESLint com o **editor de texto** predileto como o Sublime Text.
+* Para o Sublime Text pode-se utilizar os pacotes `SublimeLinter` e `SublimeLinter-contrib-eslint`.
