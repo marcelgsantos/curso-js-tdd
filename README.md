@@ -74,3 +74,12 @@
 * Algumas **regras** são `no-undef`, `no-unused-vars`, `semi`, `no-redeclare`, `quotes` e `eol-last`.
 * É possível **integrar** o ESLint com o **editor de texto** predileto como o Sublime Text.
 * Para o Sublime Text pode-se utilizar os pacotes `SublimeLinter` e `SublimeLinter-contrib-eslint`.
+
+### [Configurando o editorconfig](http://willianjusten.teachable.com/courses/103968/lectures/1578421)
+
+* O **EditorConfig** permite definir **regras de configuração** para o editor de texto.
+* Deve-se criar um arquivo `.editorconfig` na raiz do diretório do projeto com as **configurações necessárias**.
+* Neste arquivo pode-se definir as **regras** e as **extensões dos arquivos** que as regras serão aplicadas.
+* Algumas **regras** são `ident_style`, `ident_size`, `end_of_line`, `charset` e `trim_trailing_whitespace`.
+* Deve-se **instalar o plugin** do EditorConfig no seu editor de texto predileto.
+
