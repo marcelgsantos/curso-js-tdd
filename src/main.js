@@ -1,7 +1,5 @@
-a = 1
+function add(a, b) {
+  return a + b;
+}
 
-const b = 3
-
-c = '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890';
-
-console.log('hello world');
+module.export = add;

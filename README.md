@@ -87,3 +87,14 @@
 
 * O **NPM Script** é um script que pode ser **rodado** através do NPM.
 * Normalmente cria-se NPM scripts para tarefas como *transpiling de JavaScript* ou *pré-processamento de estilos*, por exemplo.
+
+### [Configurando hooks no Git](http://willianjusten.teachable.com/courses/103968/lectures/1578422)
+
+* O **husky** é um script que permite **criar hooks** do Git mais facilmente.
+* O projeto do husky pode ser visto em https://github.com/typicode/husky.
+* Os **hooks** são **triggers** que são disparadas antes de eventos como *precommit* (antes de cada commit) ou *prepush* (antes de cada push).
+* Utiliza-se o comando `npm install husky --save-dev` para **instalar o husky** no diretório do projeto.
+* Os **hooks** mais utilizados são o *precommit* e o *prepush*.
+* Ao utilizar o **hook prepush** pode-se **evitar** o push de *código inconsistente* ou com *testes quebrados* para o repositorio central.
+* Para criar um **hook do Git** utilizando o husky basta adicionar uma entrada em *scripts* como fazemos com NPM scripts.
+* Ao utilizar o hook `"prepush": "npm run eslint"`, se a verificação falhar o **push será cancelado**.
