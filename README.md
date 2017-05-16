@@ -107,3 +107,8 @@
 * Recomenda-se acessar o site http://es6-features.org/ para **conhecer mais detalhes** da ES6.
 * Recomenda-se acessar o site http://kangax.github.io/compat-table/es6/ para analisar a **compatibilidade** da ES6 em relação aos navegadores.
 * Recomenda-se acessar o site https://ponyfoo.com/articles/tagged/es6-in-depth para **artigos detalhados** sobre ES6.
+
+### [Escopo do JS](http://willianjusten.teachable.com/courses/103968/lectures/1643466)
+
+* A compreensão de **escopo** em JavaScript é muito importante.
+* As variáveis em JavaScript podem existir em **blocos** ou **globalmente** dependendo de como ela foi definida.
