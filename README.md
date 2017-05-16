@@ -98,3 +98,12 @@
 * Ao utilizar o **hook prepush** pode-se **evitar** o push de *código inconsistente* ou com *testes quebrados* para o repositorio central.
 * Para criar um **hook do Git** utilizando o husky basta adicionar uma entrada em *scripts* como fazemos com NPM scripts.
 * Ao utilizar o hook `"prepush": "npm run eslint"`, se a verificação falhar o **push será cancelado**.
+
+## Aprendendo ES6
+
+### [Introdução ao ES6](http://willianjusten.teachable.com/courses/103968/lectures/1643465)
+
+* O ES6 ou ES2015 (como passou a ser chamado) é uma **nova versão** do JavaScript que contou com a inclusão de inúmeras funcionalidades.
+* Recomenda-se acessar o site http://es6-features.org/ para **conhecer mais detalhes** da ES6.
+* Recomenda-se acessar o site http://kangax.github.io/compat-table/es6/ para analisar a **compatibilidade** da ES6 em relação aos navegadores.
+* Recomenda-se acessar o site https://ponyfoo.com/articles/tagged/es6-in-depth para **artigos detalhados** sobre ES6.
