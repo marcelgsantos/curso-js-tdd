@@ -112,3 +112,9 @@
 
 * A compreensão de **escopo** em JavaScript é muito importante.
 * As variáveis em JavaScript podem existir em **blocos** ou **globalmente** dependendo de como ela foi definida.
+
+### [Variável let no JS](http://willianjusten.teachable.com/courses/103968/lectures/1643467)
+
+* É possível criar uma variável dentro de um **bloco** utilizando `let` com o mesmo nome de uma variável criada utilizando `var` fora do bloco.
+* Utiliza-se `let` para criar variáveis no **escopo de bloco**.
+* Ao utilizar o `let` garante-se que variáveis não poderão ser **reescritas** fora do seu escopo.
