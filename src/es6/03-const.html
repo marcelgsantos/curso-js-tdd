@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>03 - const</title>
+</head>
+<body>
+
+</body>
+<script>
+  const name = 'Alice';
+  console.log(name);
+
+  // name = 'Bob';
+  // console.log(name); // Uncaught TypeError: Assignment to constant variable.
+
+  const person = {
+    name: 'Alice',
+    age: 25
+  };
+  console.log(person); // Object {name: "Alice", age: 25}
+
+  // person.age = 30;
+  // console.log(person); // Object {name: "Alice", age: 30}
+
+  Object.freeze(person);
+  person.age = 30;
+  console.log(person); // Object {name: "Alice", age: 25}
+
+</script>
+</html>
